@@ -1,5 +1,3 @@
-
-
 /* .body {
   margin: 1px 1px 1px 1px;
 } */
@@ -7,10 +5,15 @@
 /* *{
   margin:0px
 } */
+
+.ldng-pg {
+  /* background-image: url(https://wallpaperaccess.com/full/1628654.jpg); */
+}
+
 .welcome_image {
   height: 475px;
   width: 100%;
-  background-image: url("https://st.redbus.in/Images/HomeIndia/nataknew.png");
+  background-image: url("https://wallpaperaccess.com/full/1628665.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -24,27 +27,29 @@
   max-width: 60%;
   height: auto;
 }
-.type_from{
+
+.type_from {
   width: 100%;
   height: 100%;
 }
-.total_form>div>input{
-    height: 51px;
-    padding: 3px 5px;
+
+.total_form>div>input {
+  height: 51px;
+  padding: 3px 5px;
 }
 
 
 
-.link{
- width: 150px;
- height: 50px;
- font-size: 16px;
- text-align: center;
- font-weight: 700;
- color: #ffffff;
- background-color: #d74f57;
- border: none;
- font-family: Montserrat;
+.link {
+  width: 150px;
+  height: 50px;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #d74f57;
+  border: none;
+  font-family: Montserrat;
 }
 
 
@@ -64,7 +69,7 @@
   align-items: center;
 }
 
-.div > p {
+.div>p {
   font-size: 12px;
   font-weight: 600;
   text-align: center;
@@ -105,14 +110,14 @@
   float: left;
   margin-top: 1%;
   margin-left: 6%;
- 
+
 }
 
 .prompt_a {
   float: left;
   margin-top: 4.5%;
   margin-left: 4%;
-  
+
 }
 
 .prompt1 {
@@ -136,14 +141,14 @@
   margin: 0 auto;
   margin-top: 6%;
   background-color: white;
-  
+
 }
 
 .img2_hero {
   float: left;
   margin: 20px;
   background-repeat: no-repeat;
-  background-image: url(https://s3.rdbuz.com/Images/webplatform/measures/safetyplus.svg);
+  /* background-image: url(https://s3.rdbuz.com/Images/webplatform/measures/safetyplus.svg); */
   width: 88px;
   height: 88px;
   background-size: contain;
@@ -189,7 +194,8 @@
   font-size: 15px;
 }
 
-.img3_hero, .img4_Hero {
+.img3_hero,
+.img4_Hero {
   display: inline-block;
   background-repeat: no-repeat;
   background-size: contain;
@@ -202,14 +208,14 @@
 }
 
 .img4_Hero {
-  background-image: url(//st.redbus.in/Images/safety/landing/measures/safety_plus_tag.svg);
+  /* background-image: url(//st.redbus.in/Images/safety/landing/measures/safety_plus_tag.svg); */
   width: 100px;
   height: 30px;
   margin-top: -4px;
 }
 
 .img3_hero {
-  background-image: url(//s3.rdbuz.com/images/webplatform/india/HeroFeature/tip-icon.png);
+  /* background-image: url(//s3.rdbuz.com/images/webplatform/india/HeroFeature/tip-icon.png); */
   width: 30px;
   height: 30px;
 }
@@ -218,7 +224,8 @@
   margin-left: 128px;
 }
 
-.info_hero, .info_hero2 {
+.info_hero,
+.info_hero2 {
   float: left;
   width: 25%;
   padding-top: 33px;
@@ -295,17 +302,19 @@
   border-width: 1px;
   color: -internal-light-dark(black, white);
   background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
-  
+
 }
-.inp{
+
+.inp {
   width: 40%;
   height: 24px;
- 
+
   background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
   align-items: center;
   white-space: pre;
 }
-.inp2{
+
+.inp2 {
   width: 33%;
   height: 33px;
   background-color: red;
@@ -365,8 +374,8 @@
   width: 100%;
   background-color: whitesmoke;
   height: 620px;
- margin: auto;
- 
+  margin: auto;
+
 }
 
 .ig {
@@ -386,29 +395,30 @@
 
 .prms3 {
   display: grid;
-  grid-template-columns:25% 25% 25% 25%;
-grid-gap: 0.5%;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-gap: 0.5%;
   margin: auto;
   width: 90%;
 }
 
 .prms2 {
   background-color: white;
-  
+
   height: 130%;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   transition: transform .2s;
-  
+
 }
-.prms2 img{
+
+.prms2 img {
   width: 25%;
   height: 25%;
-  margin-top:15%;
+  margin-top: 15%;
   margin-left: 36%;
 }
 
 .ig1 {
-  margin-left:15%;
+  margin-left: 15%;
   width: 240px;
   text-align: center;
 }
@@ -454,8 +464,8 @@ grid-gap: 0.5%;
   align-items: center;
   text-align: center;
   font-size: 15px;
-  font-weight: 300!important;
-  line-height: 25px!important;
+  font-weight: 300 !important;
+  line-height: 25px !important;
   letter-spacing: 3px;
   color: #4a4a4a;
 }
@@ -526,7 +536,7 @@ grid-gap: 0.5%;
 
 .bckgrd {
   background-color: #e5e5e5;
-    color: #444343;
+  color: #444343;
 
   height: 500px;
   width: 100%;
@@ -569,10 +579,12 @@ grid-gap: 0.5%;
   color: #737373;
   line-height: 1.6;
 }
-.hr{
+
+.hr {
   width: 90%;
   margin-left: 10%;
 }
+
 /* .body {
   margin: 1px 1px 1px 1px;
 } */
@@ -580,7 +592,7 @@ grid-gap: 0.5%;
 .welcome_image {
   height: 475px;
   width: 100%;
-  background-image: url("https://st.redbus.in/Images/HomeIndia/nataknew.png");
+  /* background-image: url("https://st.redbus.in/Images/HomeIndia/nataknew.png"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -588,14 +600,16 @@ grid-gap: 0.5%;
 }
 
 .total_form {
-     width: 70%;
+  width: 70%;
 }
 
 .total_form>div {
   width: 100%;
 }
 
-.type_from>input, .type_to>input, .type_date>input {
+.type_from>input,
+.type_to>input,
+.type_date>input {
   width: 100%;
   padding: 5px;
   height: 40px;
@@ -629,7 +643,7 @@ grid-gap: 0.5%;
   align-items: center;
 }
 
-.div > p {
+.div>p {
   font-size: 12px;
   font-weight: 600;
   text-align: center;
@@ -670,14 +684,14 @@ grid-gap: 0.5%;
   float: left;
   margin-top: 1%;
   margin-left: 6%;
- 
+
 }
 
 .prompt {
   float: left;
   margin-top: 1%;
   margin-left: 4%;
-  
+
 }
 
 .prompt1 {
@@ -701,14 +715,14 @@ grid-gap: 0.5%;
   margin: 0 auto;
   margin-top: 6%;
   background-color: white;
-  
+
 }
 
 .img2_hero {
   float: left;
   margin: 20px;
   background-repeat: no-repeat;
-  background-image: url(https://s3.rdbuz.com/Images/webplatform/measures/safetyplus.svg);
+  /* background-image: url(https://s3.rdbuz.com/Images/webplatform/measures/safetyplus.svg); */
   width: 88px;
   height: 88px;
   background-size: contain;
@@ -754,7 +768,8 @@ grid-gap: 0.5%;
   font-size: 15px;
 }
 
-.img3_hero, .img4_Hero {
+.img3_hero,
+.img4_Hero {
   display: inline-block;
   background-repeat: no-repeat;
   background-size: contain;
@@ -767,14 +782,14 @@ grid-gap: 0.5%;
 }
 
 .img4_Hero {
-  background-image: url(//st.redbus.in/Images/safety/landing/measures/safety_plus_tag.svg);
+  /* background-image: url(//st.redbus.in/Images/safety/landing/measures/safety_plus_tag.svg); */
   width: 100px;
   height: 30px;
   margin-top: -4px;
 }
 
 .img3_hero {
-  background-image: url(//s3.rdbuz.com/images/webplatform/india/HeroFeature/tip-icon.png);
+  /* background-image: url(//s3.rdbuz.com/images/webplatform/india/HeroFeature/tip-icon.png); */
   width: 30px;
   height: 30px;
 }
@@ -783,7 +798,8 @@ grid-gap: 0.5%;
   margin-left: 128px;
 }
 
-.info_hero, .info_hero2 {
+.info_hero,
+.info_hero2 {
   float: left;
   width: 25%;
   padding-top: 33px;
@@ -860,17 +876,19 @@ grid-gap: 0.5%;
   border-width: 1px;
   color: -internal-light-dark(black, white);
   background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
-  
+
 }
-.inp{
+
+.inp {
   width: 40%;
   height: 24px;
- 
+
   background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
   align-items: center;
   white-space: pre;
 }
-.inp2{
+
+.inp2 {
   width: 33%;
   height: 33px;
   background-color: red;
@@ -930,8 +948,8 @@ grid-gap: 0.5%;
   width: 100%;
   background-color: whitesmoke;
   height: 620px;
- margin: auto;
- 
+  margin: auto;
+
 }
 
 .ig {
@@ -951,29 +969,30 @@ grid-gap: 0.5%;
 
 .prms3 {
   display: grid;
-  grid-template-columns:25% 25% 25% 25%;
-grid-gap: 0.5%;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-gap: 0.5%;
   margin: auto;
   width: 90%;
 }
 
 .prms2 {
   background-color: white;
-  
+
   height: 130%;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   transition: transform .2s;
-  
+
 }
-.prms2 img{
+
+.prms2 img {
   width: 25%;
   height: 25%;
-  margin-top:15%;
+  margin-top: 15%;
   margin-left: 36%;
 }
 
 .ig1 {
-  margin-left:15%;
+  margin-left: 15%;
   width: 240px;
   text-align: center;
 }
@@ -1019,8 +1038,8 @@ grid-gap: 0.5%;
   align-items: center;
   text-align: center;
   font-size: 15px;
-  font-weight: 300!important;
-  line-height: 25px!important;
+  font-weight: 300 !important;
+  line-height: 25px !important;
   letter-spacing: 3px;
   color: #4a4a4a;
 }
@@ -1072,10 +1091,11 @@ grid-gap: 0.5%;
   grid-template-columns: 25% 25% 25%;
   grid-gap: 5%;
   margin-left: 10%;
- 
+
 }
-.num1{
-  margin-left: 5%; 
+
+.num1 {
+  margin-left: 5%;
   margin-top: 2%;
   /* text-align: center; */
   font-family: Montserrat;
@@ -1097,7 +1117,7 @@ grid-gap: 0.5%;
 
 .bckgrd {
   background-color: #e5e5e5;
-    color: #444343;
+  color: #444343;
 
   height: 500px;
   width: 100%;
@@ -1119,33 +1139,31 @@ grid-gap: 0.5%;
   text-align: left;
 }
 
-.left  {
+.left {
   text-align: left;
   font-size: 15px;
 }
 
-.bushead  {
+.bushead {
   font-size: 15px;
   font-weight: bolder;
   color: #444343;
   text-align: left;
 }
 
-.mrgn  {
+.mrgn {}
 
- 
-  
-}
-.hr{
+.hr {
   width: 90%;
   margin-left: 10%;
 }
-.mrgn1{
+
+.mrgn1 {
   font-family: Montserrat;
   color: #737373;
   line-height: 1.6;
   font-size: 15px;
   margin-left: 10%;
- 
+
   text-align: left;
 }

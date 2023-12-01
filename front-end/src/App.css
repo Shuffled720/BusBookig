@@ -1,11 +1,11 @@
-
-
 .App {
   text-align: center;
 }
+
 .place {
   margin-left: 1000px;
 }
+
 .position-fixed {
   /* margin-left: 1000px; */
   position: fixed;
@@ -13,12 +13,14 @@
   /* margin-top: -8500px; */
 
 }
+
 .journey-type-container {
   margin-left: 1000px;
   position: fixed;
   margin-top: -8000px;
-  z-index:1;
+  z-index: 1;
 }
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -49,6 +51,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

@@ -1,7 +1,8 @@
 import { Showseat } from '../../ShowSeat/Showseat';
 import styled from "styled-components";
-import {useState} from "react";
-function OneBus ({data}) {
+import { useState } from "react";
+import { Button } from 'reactstrap';
+function OneBus({ data }) {
     const [toggle, setToggle] = useState(false);
     console.log(data);
     // let  = {
@@ -17,7 +18,7 @@ function OneBus ({data}) {
     //       pickup_address : "bangalore",
     //       drop_address : "mumbai",
     //       passengers : [
-                  
+
     //           ],
     //       sleeper : true,
     //       ac : false,
@@ -52,7 +53,7 @@ function OneBus ({data}) {
     const Name = styled.p`
     
     `
-    const Icon= styled.img`
+    const Icon = styled.img`
         width: 20px;
         height: 20px;
     `
@@ -62,7 +63,7 @@ function OneBus ({data}) {
     const Departure_time = styled.h2`
     
     `
-    const Departure_address  = styled.p`
+    const Departure_address = styled.p`
     
     `
     const Duration = styled.div`
@@ -76,7 +77,7 @@ function OneBus ({data}) {
     `
     const Arriaval_time = styled.h3`
     `
-    const Arriaval_address  = styled.p`
+    const Arriaval_address = styled.p`
     
     `
     const Rating_container = styled.div`
@@ -128,55 +129,50 @@ function OneBus ({data}) {
             <Container>
                 <Name_container>
                     <Travel>{data.travel_name}</Travel>
-                    <Name>{data.bus_name} </Name>
+                    <Name>{data.busName} </Name>
+                    {/* <Span>
+                        <Icon src="https://news.northeastern.edu/wp-content/uploads/2020/05/mask_icon.png"></Icon></Span>
                     <Span>
-                    <Icon src = "https://news.northeastern.edu/wp-content/uploads/2020/05/mask_icon.png"></Icon></Span>
-                    <Span>
-                    <Icon src = "https://cdn2.iconfinder.com/data/icons/coronavirus-160/48/covid_3_bold-08-512.png"></Icon>
+                        <Icon src="https://cdn2.iconfinder.com/data/icons/coronavirus-160/48/covid_3_bold-08-512.png"></Icon>
                     </Span>
                     <Span>
-                    <Icon src = " https://cdn4.iconfinder.com/data/icons/hand-washing-line/64/hygiene-17-512.png"></Icon>
-                    </Span>
-                   
+                        <Icon src=" https://cdn4.iconfinder.com/data/icons/hand-washing-line/64/hygiene-17-512.png"></Icon>
+                    </Span> */}
+
                 </Name_container>
                 <Departure_container>
-                    <Departure_time>{data.pick_up_time} hours</Departure_time>
+                    {/* <Departure_time>{data.pick_up_time} hours</Departure_time> */}
                     <Departure_address>{data.pickup_address}</Departure_address>
                 </Departure_container>
-                <Duration>
-                    <Duration_time>{data.duration} Hours</Duration_time>
-                </Duration>
-                <Arrival_container>
-                    <Arriaval_time>{data.drop_time} Hours</Arriaval_time>
-                    <Arriaval_address>{data.drop_address}</Arriaval_address>
-                </Arrival_container>
-                <Rating_container>
-                    <Rating> *{data.rating}</Rating>
-                </Rating_container>
-                <Fare_container>
-                    Starts from INR<span>
-                    <Ticket_price>₹ {data.price}</Ticket_price></span>
-                </Fare_container>
+                <Departure_container>
+                    {/* <Departure_time>{data.pick_up_time} hours</Departure_time> */}
+                    <Departure_address>{data.drop_address}</Departure_address>
+                </Departure_container>
+
+
+
+
                 <Seat_container>
-                    <Seat>{data.seats_available}</Seat>
+                    <Seat>{data.totalSeat - data.currentOccupancy}</Seat>
                     Seats available
                 </Seat_container>
             </Container>
-            <ViewSeat_btn>
-                <Span style = {{}}>Amenitie | Boarding and Droping Points | Reviews | Booking Policies | </Span>
-                <Toggle_button onClick = {() => setToggle(!toggle)}>View Seats</Toggle_button>
+            <Button color="danger">Book Now</Button>
+            {/* <ViewSeat_btn>
+                <Span style={{}}>Amenitie | Boarding and Droping Points | Reviews | Booking Policies | </Span>
+                <Toggle_button onClick={() => setToggle(!toggle)}>View Seats</Toggle_button>
             </ViewSeat_btn>
             {
-                toggle? (
+                toggle ? (
                     <Seat_div>
-                        <Showseat bus = {data}/>
-                     </Seat_div>
-                ): (
+                        <Showseat bus={data} />
+                    </Seat_div>
+                ) : (
                     ""
                 )
-            }
-            
+            } */}
+
         </Main_container>
     )
 }
-export {OneBus};
+export { OneBus };

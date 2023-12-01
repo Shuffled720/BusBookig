@@ -17,19 +17,19 @@ const SearchBuses = () => {
                 </div>
                 <br />
 
-                <div className="inp"> 
+                <div className="inp">
                     <div className="head">DEPARTURE TIME</div>
                     <div className="bdy">
                         <input type="checkbox" className="inp1" /> <img className="imgs" src="https://freepngimg.com/download/alarm/22921-5-morning-alarm-image.png" alt="" /> <div>  Before 6am</div>
                     </div>
                     <div className="bdy">
-                        <input type="checkbox" className="inp1"/><img className="imgs" src="https://th.bing.com/th/id/R.7753f50f02196a8547d206dc00a485fd?rik=kDj3UsII659w8Q&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fdownload_183081.png&ehk=PgJb3%2f9xAwPor0E4QcelZk76VKx%2bAJYgz%2bzePpOi5og%3d&risl=&pid=ImgRaw&r=0" alt="" /> <div>6am to 12pm</div>
+                        <input type="checkbox" className="inp1" /><img className="imgs" src="https://th.bing.com/th/id/R.7753f50f02196a8547d206dc00a485fd?rik=kDj3UsII659w8Q&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fdownload_183081.png&ehk=PgJb3%2f9xAwPor0E4QcelZk76VKx%2bAJYgz%2bzePpOi5og%3d&risl=&pid=ImgRaw&r=0" alt="" /> <div>6am to 12pm</div>
                     </div >
                     <div className="bdy">
-                        <input type="checkbox" className="inp1"/><img className="imgs" src="https://cdn.onlinewebfonts.com/svg/img_168368.png" alt="" /> <div>12pm to 6pm</div>
+                        <input type="checkbox" className="inp1" /><img className="imgs" src="https://cdn.onlinewebfonts.com/svg/img_168368.png" alt="" /> <div>12pm to 6pm</div>
                     </div >
                     <div className="bdy">
-                        <input type="checkbox" className="inp1"/><img className="imgs" src="https://cdn.onlinewebfonts.com/svg/img_447445.png" alt="" /> <div>After 6pm</div>
+                        <input type="checkbox" className="inp1" /><img className="imgs" src="https://cdn.onlinewebfonts.com/svg/img_447445.png" alt="" /> <div>After 6pm</div>
                     </div>
                 </div>
                 <br />
@@ -41,10 +41,10 @@ const SearchBuses = () => {
                         <input type="checkbox" className="inp1" /><div>SEATER</div>
                     </div>
                     <div className="bdy">
-                        <input type="checkbox" className="inp1"/><div>SLEEPER</div>
+                        <input type="checkbox" className="inp1" /><div>SLEEPER</div>
                     </div>
                     <div className="bdy">
-                        <input type="checkbox" className="inp1"/><div>AC</div>
+                        <input type="checkbox" className="inp1" /><div>AC</div>
                     </div>
                     <div className="bdy">
                         <input type="checkbox" className="inp1" /><div>NON AC</div>
@@ -59,13 +59,13 @@ const SearchBuses = () => {
                         <input type="checkbox" className="inp1" /> <img className="imgs" src="https://freepngimg.com/download/alarm/22921-5-morning-alarm-image.png" alt="" /> <div>  Before 6am</div>
                     </div>
                     <div className="bdy">
-                        <input type="checkbox" className="inp1"/><img className="imgs" src="https://th.bing.com/th/id/R.7753f50f02196a8547d206dc00a485fd?rik=kDj3UsII659w8Q&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fdownload_183081.png&ehk=PgJb3%2f9xAwPor0E4QcelZk76VKx%2bAJYgz%2bzePpOi5og%3d&risl=&pid=ImgRaw&r=0" alt="" /> <div>6am to 12pm</div>
+                        <input type="checkbox" className="inp1" /><img className="imgs" src="https://th.bing.com/th/id/R.7753f50f02196a8547d206dc00a485fd?rik=kDj3UsII659w8Q&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fdownload_183081.png&ehk=PgJb3%2f9xAwPor0E4QcelZk76VKx%2bAJYgz%2bzePpOi5og%3d&risl=&pid=ImgRaw&r=0" alt="" /> <div>6am to 12pm</div>
                     </div >
                     <div className="bdy">
-                        <input type="checkbox" className="inp1"/><img className="imgs" src="https://cdn.onlinewebfonts.com/svg/img_168368.png" alt="" /> <div>12pm to 6pm</div>
+                        <input type="checkbox" className="inp1" /><img className="imgs" src="https://cdn.onlinewebfonts.com/svg/img_168368.png" alt="" /> <div>12pm to 6pm</div>
                     </div >
                     <div className="bdy">
-                        <input type="checkbox" className="inp1"/><img className="imgs" src="https://cdn.onlinewebfonts.com/svg/img_447445.png" alt="" /> <div>After 6pm</div>
+                        <input type="checkbox" className="inp1" /><img className="imgs" src="https://cdn.onlinewebfonts.com/svg/img_447445.png" alt="" /> <div>After 6pm</div>
                     </div>
                 </div>
                 <br />
