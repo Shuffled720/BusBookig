@@ -12,7 +12,7 @@ router.post("/", async (req, res) => {
 })
 
 
-router.get("/all", async (req, res) => {
+router.get("/all", async (res) => {
     let item = await Bus.find().lean().exec();
 
 
@@ -32,7 +32,6 @@ router.patch("/update/:id", async (req, res) => {
 
 router.get("/one/:id", async (req, res) => {
     let item = await Bus.findById(req.params.id).lean().exec();
-
     return res.status(200).send({item});
 })
 

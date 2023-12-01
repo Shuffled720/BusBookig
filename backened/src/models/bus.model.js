@@ -2,18 +2,14 @@ const mongoose = require("mongoose");
 
 
 const busSchema = new mongoose.Schema({
-    name: { type: String, required: true },
-    model: { type: String },
-    total_seat: { type: Number, required: true },
-    starting_price: { type: String, required: true },
-    city: { type: String, required: true },
-    driver_bata: { type: Number, required: true },
-    local_package_start: { type: String, required: true },
-    feature: [{ type: String, required: true }],
-    image: { type: String, required: true },
-    available: { type: String },
-    per_km: { type: Number, required: true }
-
+    busName: { type: String, required: true },
+    totalSeat: { type: Number, required: true },
+    currentOccupancy: { type: Number, default : 0 },
+    availableDayOfOperation:{ type: Number, required: true },
+    pickup_address: { type: String, required: true },
+    drop_address: { type: String, required: true },
+    distance: { type: Number, required: true },
+    estimateTime:{ type: Number, required: true },
 })
 
 
