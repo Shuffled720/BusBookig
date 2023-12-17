@@ -9,7 +9,7 @@ import { Button } from './ui/button'
 
 
 const UploadButton = () => {
-    const [isOpen, setIsOpen] = useState(false);;
+    const [isOpen, setIsOpen] = useState<boolean>(false);;
     return (
         <Dialog
             open={isOpen}
@@ -23,8 +23,10 @@ const UploadButton = () => {
                 asChild>
                 <Button>Upload PDF</Button>
             </DialogTrigger>
-            
 
+            <DialogContent>
+                example content
+            </DialogContent>
 
         </Dialog>
     )

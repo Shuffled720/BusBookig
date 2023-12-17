@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
-
+import "react-loading-skeleton/dist/skeleton.css";
 
 import { cn } from '@/lib/util'
 import NavBar from '@/components/NavBar'
